@@ -1,3 +1,4 @@
+#!/bin/zsh
 # Function to switch JDK versions
 function setjdk() {
   echo "Select the java version you wish to switch to from the following:"
