@@ -2,9 +2,9 @@
 
 # How to install
 
-`brew tap MadeInChina/setjdk`
+`brew tap MadeInChina/homebrew-taps`
 
-`brew install setjdk`
+`brew install setjdk` or `brew install --build-from-source setjdk`
 
 # How to using
 
