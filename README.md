@@ -1,4 +1,4 @@
-# setjdk tool for switch java version
+# setjdk is a tool for switch java version
 
 # How to install
 
