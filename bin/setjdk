@@ -20,7 +20,7 @@ function setjdk() {
   if [ "$count" -ge "$selectedOption" ] && [ "$selectedOption" -ge '0' ]; then
     removeFromPath '/System/Library/Frameworks/JavaVM.framework/Home/bin'
     removeFromPath "$JAVA_HOME/bin"
-    stringArray=(${allVersions[$selectedOption]})
+    stringArray=(${=allVersions[$selectedOption]})
     export JAVA_HOME="${stringArray[@]: -1}"
     export PATH="$JAVA_HOME"/bin:$PATH
     echo "JAVA_HOME is set to be ${JAVA_HOME}"
