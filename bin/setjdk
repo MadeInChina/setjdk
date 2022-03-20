@@ -22,7 +22,7 @@ function setjdk() {
     removeFromPath "$JAVA_HOME/bin"
     stringArray=(${=allVersions[$selectedOption]})
     export JAVA_HOME="${stringArray[@]: -1}"
-    export PATH="$JAVA_HOME"/bin:/bin:$PATH
+    export PATH="$JAVA_HOME"/bin:/opt/homebrew/bin:/bin:$PATH
     echo "JAVA_HOME is set to be ${JAVA_HOME}"
   else
     echo "Invalid option, JAVA_HOME was not set"
