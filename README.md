@@ -17,5 +17,5 @@ Select the java version you wish to switch to from the following:
 [4]    1.8.0_252 (x86_64) "AdoptOpenJDK" - "AdoptOpenJDK 8" /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
 Please chose a value from the options above:
 1
-JAVA_HOME is set to be     17 (x86_64) "Homebrew" - "OpenJDK 17" /usr/local/Cellar/openjdk/17/libexec/openjdk.jdk/Contents/Home
+JAVA_HOME is set to be /usr/local/Cellar/openjdk/17/libexec/openjdk.jdk/Contents/Home
 ```
